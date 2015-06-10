@@ -7,6 +7,12 @@ students = {
 
 students.each do |name, num|
 	puts "#{name}: #{num} students"
-end
+end	
 
 puts students.keys 
+
+students.each do |name, num|
+	increase = (num * 1.05).to_i
+	puts "#{name}: "+ increase.to_s + " students"
+end	
+	
