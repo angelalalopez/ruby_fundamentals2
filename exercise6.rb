@@ -1,7 +1,7 @@
 # Exercise 6 for Ruby
 #Grocery shopping!
 
-grocery_list = ["carrots", "toilet paper", "apples", "salmon", "rice", "bananas"]
+grocery_list = ["carrots", "toilet paper", "apples", "salmon", "bananas"]
 
 # Your next step should present your grocery list with an item on each line, with an asterisk (*) in front of it
 grocery_list.each do |item|
@@ -19,6 +19,9 @@ def lister(list)
 end
 
 lister(grocery_list)
+
+# Add rice
+grocery_list << "rice"
 
 # Output the total number of items on your list.
 puts "There are #{grocery_list.count} items in your Grocery List"
