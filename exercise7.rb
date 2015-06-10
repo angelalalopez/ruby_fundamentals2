@@ -28,4 +28,8 @@ students.each do |name, num|
   puts "#{name}: "+ increase.to_s + " students"
 end
 
+# Delete 2nd cohort and display
 students.delete(:cohort2)
+display(students)
+
+# Calculate total students in all cohorts using each and incrementing a variable, output
