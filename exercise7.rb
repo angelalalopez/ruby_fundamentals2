@@ -6,9 +6,10 @@ students = {
 
 def display(name)
   puts "Bitmaker Cohort Sizes:"
+
   name.each do |name, num|
   puts "#{name}: #{num} students"
-end
+  end
 end
 
 # Display name and number
@@ -33,3 +34,34 @@ students.delete(:cohort2)
 display(students)
 
 # Calculate total students in all cohorts using each and incrementing a variable, output
+# puts "Counting is fun"
+# count = students.each_value { |value| puts value}
+# puts count
+
+# students.each do |key, value|
+#   count = 0
+#   count += value
+#   puts count
+# end
+
+# puts "Still trying to count"
+# puts students
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
