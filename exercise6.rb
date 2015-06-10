@@ -7,10 +7,14 @@ grocery_list = ["carrots", "toilet paper", "apples", "salmon", "rice", "bananas"
 grocery_list.each do |item|
 	puts "* " + item
 end
+
 # Write a method
 def lister(list)
+
+  puts "Grocery list:"
+
   list.each do |item|
-    puts "* " + item.to_s
+    puts "* " + item.to_s.capitalize
   end
 end
 
@@ -24,3 +28,11 @@ puts grocery_list.include?("bananas")? "You need to pick up bananas.": "You don'
 
 # Display the second item in the list
 puts "2nd item on your list is: #{grocery_list[1]}"
+
+# Alphabetical List
+lister(grocery_list.sort)
+
+# Delete Salmon and list
+grocery_list.delete("salmon")
+
+lister(grocery_list)
