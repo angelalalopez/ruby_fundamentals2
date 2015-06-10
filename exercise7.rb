@@ -8,3 +8,5 @@ students = {
 students.each do |name, num|
 	puts "#{name}: #{num} students"
 end
+
+puts students.keys 
